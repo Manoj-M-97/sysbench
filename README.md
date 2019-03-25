@@ -100,16 +100,9 @@ brew install sysbench
 ```
 
 ## Windows
-As of sysbench 1.0 support for native Windows builds was dropped. It may
-be re-introduced in later releases. Currently, the recommended way to
-obtain sysbench on Windows is
-using
-[Windows Subsystem for Linux available in Windows 10](https://msdn.microsoft.com/en-us/commandline/wsl/about).
-
-After installing WSL and getting into he bash prompt on Windows
-following Debian/Ubuntu installation instructions is
-sufficient. Alternatively, one can use WSL to build and install sysbench
-from source, or use an older sysbench release to build a native binary.
+The support for windows has been stopped by the owner of the repository. 
+The windows version of the code can be found in branch 0.5 and when executed,
+an executable is generated which serves the purpose.
 
 # Building and Installing From Source
 
