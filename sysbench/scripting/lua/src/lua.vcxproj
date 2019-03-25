@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C04A783-E8A2-35A2-9B97-FEE9B91CDA14}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>lua</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lua.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lua.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lua.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lua.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_LUA;USE_LUA;LUA_WIN;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench -BC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench --check-stamp-file C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench -BC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench --check-stamp-file C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench -BC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench --check-stamp-file C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench -BC:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench --check-stamp-file C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lapi.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lcode.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldebug.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldo.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldump.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lfunc.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lgc.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\llex.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmem.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lobject.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lopcodes.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lparser.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lstate.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lstring.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ltable.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ltm.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lundump.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lzio.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lauxlib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lbaselib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldblib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\liolib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\loslib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ltablib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lstrlib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\loadlib.c" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\linit.c" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lapi.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lcode.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldo.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lgc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\llimits.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lobject.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lparser.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lstring.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ltm.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\luaconf.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lundump.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lzio.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lauxlib.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ldebug.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lfunc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\llex.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmem.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lopcodes.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lstate.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\ltable.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lua.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lualib.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\ZERO_CHECK.vcxproj">
+      <Project>{125F4327-71C5-3380-B7CA-9220BAB0D00E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

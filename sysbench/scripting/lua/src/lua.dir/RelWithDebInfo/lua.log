@@ -1,0 +1,68 @@
+﻿  lapi.c
+  lcode.c
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lcode.c(644): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lcode.c(645): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+  ldebug.c
+  ldo.c
+  ldump.c
+  lfunc.c
+  lgc.c
+  llex.c
+  lmem.c
+  lobject.c
+  lopcodes.c
+  lparser.c
+  lstate.c
+  lstring.c
+  ltable.c
+  ltm.c
+  lundump.c
+  lvm.c
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.c(325): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.c(326): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.c(487): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lvm.c(491): warning C4244: '=': conversion from 'double' to 'lua_Number', possible loss of data
+  lzio.c
+  lauxlib.c
+  Generating Code...
+  Compiling...
+  lbaselib.c
+  ldblib.c
+  liolib.c
+  lmathlib.c
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(27): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(32): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(37): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(42): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(47): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(52): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(57): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(62): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(67): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(72): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(77): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(82): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(87): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(92): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(99): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(100): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(105): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(110): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(115): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(120): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(125): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(130): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(135): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(141): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(147): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(193): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(200): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\lmathlib.c(253): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+  loslib.c
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\loslib.c(186): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+  ltablib.c
+  lstrlib.c
+  loadlib.c
+  linit.c
+  Generating Code...
+  lua.vcxproj -> C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\lua\src\RelWithDebInfo\lua.lib

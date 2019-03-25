@@ -1,0 +1,10 @@
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/CMakeFiles/sysbench.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/tests/cpu/CMakeFiles/sbcpu.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/tests/fileio/CMakeFiles/sbfileio.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/tests/mutex/CMakeFiles/sbmutex.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/CMakeFiles/sbscript.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/scripting/lua/src/CMakeFiles/lua.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/tests/threads/CMakeFiles/sbthreads.dir
+C:/Users/Administrator/Desktop/sysbench-0.5New/sysbench-0.5/sysbench/tests/memory/CMakeFiles/sbmemory.dir

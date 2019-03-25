@@ -20,7 +20,7 @@
 #define PACKAGE_VERSION "0.5"
 #endif
 
-#define snprintf(buffer, count,  format,...)  \
+//#define snprintf(buffer, count,  format,...)  \
   _snprintf_s(buffer,count, _TRUNCATE,format, __VA_ARGS__)
 #define strcasecmp _stricmp
 #define strncasecmp _strnicmp
@@ -39,11 +39,11 @@ typedef intptr_t ssize_t;
 #endif
 #endif
 
-struct  timespec
+/*struct  timespec
 {
   time_t     tv_sec;
   long long  tv_nsec;
-};
+};*/
 typedef HANDLE pthread_t;
 typedef CRITICAL_SECTION pthread_mutex_t;
 
@@ -103,7 +103,7 @@ extern int pthread_join(pthread_t thread, void **value_ptr);
 extern int gettimeofday(struct timeval * tp, void * tzp);
 extern int random();
 
-#define ETIMEDOUT 2204
+//#define ETIMEDOUT 2204
 
 static  __inline int usleep(int micros)
 {

@@ -30,6 +30,7 @@
 #include "db_driver.h"
 
 #include <stdlib.h>
+#include<string.h>
 
 #define EVENT_FUNC "event"
 #define PREPARE_FUNC "prepare"
@@ -38,6 +39,10 @@
 #define THREAD_DONE_FUNC "thread_done"
 #define HELP_FUNC "help"
 
+#define DATA_PATH "C:\Users\Administrator\Desktop\sysbench-0.5\sysbench\tests\db"
+#ifndef PATH_MAX
+#define PATH_MAX MAX_PATH
+#endif
 /* Macros to call Lua functions */
 #define CALL_ERROR(L, name)           \
   do { \
@@ -170,8 +175,12 @@ unsigned int sb_lua_table_size(lua_State *, int);
 int script_load_lua(const char *testname, sb_test_t *test)
 {
   unsigned int i;
-
-  setenv("LUA_PATH", DATA_PATH LUA_DIRSEP "?.lua", 0);
+  char abc[100] = "LUA_PATH=";
+  strcat(abc, DATA_PATH);
+  strcat(abc, LUA_DIRSEP);
+  strcat(abc, "?.lua");
+  putenv(abc);
+  //setenv("LUA_PATH", DATA_PATH LUA_DIRSEP "?.lua", 0);
 
   /* Initialize global interpreter state */
   gstate = sb_lua_new_state(testname, -1);

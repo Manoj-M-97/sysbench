@@ -1,0 +1,18 @@
+﻿  script_lua.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h(40): warning C4005: 'offsetof': macro redefinition
+  c:\users\administrator\desktop\sysbench-0.5new\sysbench-0.5\sysbench\sb_list.h(35): note: see previous definition of 'offsetof'
+c:\users\administrator\desktop\sysbench-0.5new\sysbench-0.5\sysbench\sb_win.h(24): warning C4010: single-line comment contains line-continuation character
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(179): warning C4129: 'A': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(179): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(179): warning C4129: 's': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(179): warning C4129: 'd': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(321): warning C4244: 'function': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(336): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(350): warning C4244: 'function': conversion from 'double' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(408): warning C4244: 'function': conversion from 'float' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(411): warning C4244: 'function': conversion from 'unsigned __int64' to 'lua_Number', possible loss of data
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(511): warning C4129: 'A': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(511): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(511): warning C4129: 's': unrecognized character escape sequence
+C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\script_lua.c(511): warning C4129: 'd': unrecognized character escape sequence
+  sbscript.vcxproj -> C:\Users\Administrator\Desktop\sysbench-0.5New\sysbench-0.5\sysbench\scripting\RelWithDebInfo\sbscript.lib

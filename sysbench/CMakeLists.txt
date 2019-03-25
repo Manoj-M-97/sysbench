@@ -24,6 +24,8 @@ project(sysbench)
 add_executable(sysbench
   sysbench.c 
   sysbench.h 
+  sb_barrier.c
+  sb_barrier.h
   sb_timer.c 
   sb_timer.h 
   sb_options.c 
